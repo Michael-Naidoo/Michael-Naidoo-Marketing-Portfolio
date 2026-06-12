@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Portfolio | Project Campaigns</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+        h1 { color: #f0f6fc; margin-bottom: 5px; text-align: center; }
+        .subtitle { color: #8b949e; margin-bottom: 40px; text-align: center; max-width: 600px; font-size: 16px; }
+        .section-title { color: #f0f6fc; width: 100%; max-width: 1000px; border-bottom: 1px solid #30363d; padding-bottom: 10px; margin-top: 20px; margin-bottom: 25px; }
+        .portfolio-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1100px;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        .portfolio-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .static-card {
+            width: 460px;
+        }
+        video {
+            width: 100%;
+            border-radius: 8px;
+            aspect-ratio: 9 / 16;
+            background-color: #000;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            object-fit: contain;
+            background-color: #0a0e14;
+        }
+        .banner-img {
+            aspect-ratio: 3 / 1;
+        }
+        .flyer-img {
+            aspect-ratio: 4 / 5;
+        }
+        h3 { color: #58a6ff; margin: 15px 0 5px 0; font-size: 18px; }
+        p { font-size: 14px; color: #8b949e; line-height: 1.4; margin: 0; }
+    </style>
+</head>
+<body>
+
+    <h1>Campaign & Creative Portfolio</h1>
+    <p class="subtitle">A showcase of rapid asset creation, data-driven video frameworks, and direct-response static design.</p>
+
+    <h2 class="section-title">Video Marketing Concepts (Spec Ads)</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-card">
+            <video controls preload="metadata">
+                <source src="sebenza-meme-ad.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div>
+                <h3>Concept 1: The Data Struggle (Meme Format)</h3>
+                <p>High-retention asset optimized for viral reach and organic distribution among urban commuters aged 18–25.</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card">
+            <video controls preload="metadata">
+                <source src="sebenza-how-to.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div>
+                <h3>Concept 2: Animated Step-by-Step Guide</h3>
+                <p>Motion-graphic infographic tracking user-onboarding menus while strictly maintaining platform brand consistency.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">Direct-Response Static Designs</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-card static-card">
+            <img src="Unlock Your Potential. Claim Your FREE Trial Lesson..png" alt="Wits Tang Soo Do Banner" class="banner-img">
+            <div>
+                <h3>Wits Tang Soo Do Banner</h3>
+                <p>Direct-response digital web banner engineered with high-contrast color blocks to maximize trial lesson registrations.</p>
+            </div>
+        </div>
+
+        <div class="portfolio-card static-card">
+            <img src="Win a hamper worth R3000!!! (3).png" alt="Northcliff Union Church Flyer" class="flyer-img">
+            <div>
+                <h3>Northcliff Union Church Event Flyer</h3>
+                <p>Conversion-focused print/OOH layout utilizing a frictionless, centralized QR-code strategy to drive digital raffle entries.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
